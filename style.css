@@ -1300,7 +1300,9 @@ form input[type="submit"], form button, form input[type="reset"] {
 .page-head {
   background-size: cover;
   padding: 50px;
-  text-align: center; }
+  text-align: center;
+  background-color: blue;
+}
   .page-head .page-title {
     font-weight: 100;
     font-size: 72px;

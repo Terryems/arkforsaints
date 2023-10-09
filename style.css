@@ -1,8 +1,8 @@
 /*!
- * Project_Name: Compass Starter
- * Author: Ariona, Rian
- * Email: yans_fied[at]yahoo.com
- * Url: http://www.ariona.net
+ * Project_Name: Church Website
+ * Author: Emmanuel Simon
+ * Email: emmanuelsimona@gmail.com
+ * Url: http://aidoko.net
  */
 /*=========================================== 
  * Importing CSS Libraries
@@ -1535,4 +1535,21 @@ ul.bullet {
   margin-left: 2%;
   margin-right: 2%;
 
+}
+table{
+  margin: 10px ;
+
+}
+th{
+  background-color: orange;
+  font-size: 30px;
+}
+tr{
+  text-transform: uppercase;
+  border-color: #8f7655;
+  
+}
+.twoo{
+  background-color: #00007C;
+  color: white;
 }

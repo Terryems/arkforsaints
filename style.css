@@ -1572,3 +1572,45 @@ tr{
 
     background-attachment: cover;
 }
+
+
+.cont1{
+  background: url("/images/IMG1.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-attachment: cover;
+}
+.cont1{
+  background: url("/images/IMG2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-attachment: cover;
+}
+.cont1{
+  background: url("/images/IMG3.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-attachment: cover;
+}
+

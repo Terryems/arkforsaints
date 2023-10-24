@@ -1560,7 +1560,7 @@ tr{
   background-color: orange;
 }
 .cont1{
-  background: url("/images/IMG.jpg");
+  background: url("/images/IMG.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -1575,7 +1575,7 @@ tr{
 
 
 .cont1{
-  background: url("/images/IMG1.jpg");
+  background: url("/images/IMG1.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -1587,8 +1587,8 @@ tr{
 
     background-attachment: cover;
 }
-.cont1{
-  background: url("/images/IMG2.jpg");
+.cont3{
+  background: url("/images/IMG2.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -1600,8 +1600,8 @@ tr{
 
     background-attachment: cover;
 }
-.cont1{
-  background: url("/images/IMG3.jpg");
+.cont3{
+  background: url("/images/IMG3.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;

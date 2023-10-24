@@ -1560,5 +1560,15 @@ tr{
   background-color: orange;
 }
 .cont1{
-  background-color: blue;
+  background: url("/images/IMG.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-attachment: cover;
 }

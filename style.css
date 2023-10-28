@@ -2,7 +2,7 @@
  * Project_Name: Church Website
  * Author: Emmanuel Simon
  * Email: emmanuelsimona@gmail.com
- * Url: http://aidoko.net
+ * Url: http://aidoko.tech
  */
 /*=========================================== 
  * Importing CSS Libraries
@@ -47,7 +47,7 @@ textarea {
 
 body {
   margin: 0;
-  background-color: green;
+  /* background-color: green; */
 }
   
 
@@ -219,6 +219,10 @@ body {
   font-weight: 300;
   line-height: 1.5;
   background-color: whitesmoke;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-position: fixed ;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1560,57 +1564,98 @@ tr{
   background-color: orange;
 }
 .cont1{
-  background: url("/images/IMG.jpeg");
+  background: url("./images/IMG1.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    background-position: 100% 50%;
+    background-size: contain;
     height: 400px;
     width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-attachment: cover;
+    background-attachment: fixed;
 }
 
 
-.cont1{
-  background: url("/images/IMG1.jpeg");
+.cont2{
+  background: linear-gradient(rgba(4, 27, 180, 0.249), rgba(12, 0, 100, 0.177),rgba(3, 2, 41, 0.5)) ,url("./images/IMG2.jpg");
+  /* background: url("./images/IMG2.jpg"); */
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    background-position: 100% 50%;
+    background-size: contain;
     height: 400px;
     width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-attachment: cover;
-}
-.cont3{
-  background: url("/images/IMG2.jpeg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 400px;
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-attachment: cover;
+    background-attachment: fixed;
 }
 .cont3{
-  background: url("/images/IMG3.jpeg");
+  background: linear-gradient(rgba(21, 4, 107, 0.253), rgba(38, 8, 113, 0.291),rgba(6, 8, 137, 0.262)) ,url("./images/IMG3.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    background-position: 100% 50%;
+    background-size: 100% 100%;
     height: 400px;
     width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
 
+    /* background-attachment: fixed; */
     background-attachment: cover;
+  }
+.about{
+  border: 1px solid rgba(0, 0, 255, 0.73);
+  border-radius: 12px;
+  background-color: rgba(30, 48, 208, 0.207);
+  /* height: 20px; */
+  margin-top: 10px;
+  
 }
+.about1{
+  border: 1px solid rgba(13, 10, 190, 0.311);
+  border-radius: 25px;
+  background-color: rgba(0, 0, 255, 0.131);
+  /* height: 20px; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+.our{
+  background-color: rgba(153, 205, 50, 0.518);
+  width: fit-content;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
 
+
+}
+.ourr{
+  background-color: yellow;
+  width: fit-content;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  /* -moz-box-shadow: red 10px 10px; */
+    /* -webkit-box-shadow: red 10px 10px; */
+    /* box-shadow:rgb(204, 180, 0) 3px 5px; */
+    /* color: white; */
+
+}
+.ourr:hover{
+  color: white;
+  transition: 1s;
+  background-color: orange;
+}
+.our:hover{
+  color: white;
+  transition: 1s;
+  background-color: orange;
+}
+.mar{
+  marqueedirection="right" height="30"
+         width="80%" hspace="10" vspace="10"
+}

@@ -1564,7 +1564,7 @@ tr{
   background-color: orange;
 }
 .cont1{
-  background: linear-gradient(rgba(21, 4, 107, 0.253), rgba(38, 8, 113, 0.291),rgba(6, 8, 137, 0.262)) ,url("./images/IMG2.webp");
+  background: linear-gradient(rgba(21, 4, 107, 0.253), rgba(38, 8, 113, 0.291),rgba(6, 8, 137, 0.262)) ,url("./images/IMG.webp");
     background-repeat: no-repeat;
     background-position: 100% 50%;
     background-size: 100% 100%;

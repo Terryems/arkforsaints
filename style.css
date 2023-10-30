@@ -1333,10 +1333,10 @@ form input[type="submit"], form button, form input[type="reset"] {
   text-align: center;
   margin-bottom: 30px; }
   .news .news-image {
-    width: 100%;
+    width: 403px;
     max-width: 100%;
-    height: auto;
-    margin-bottom: 20px; }
+    height: 403px;
+    margin-bottom: 5px; }
   .news .news-title {
     font-size: 14px;
     font-size: 1em;
@@ -1564,7 +1564,7 @@ tr{
   background-color: orange;
 }
 .cont1{
-  background: url("./images/IMG1.jpg");
+  background: url("./images/IMG1.webp");
     background-repeat: no-repeat;
     background-position: 100% 50%;
     background-size: contain;
@@ -1579,7 +1579,7 @@ tr{
 
 
 .cont2{
-  background: linear-gradient(rgba(4, 27, 180, 0.249), rgba(12, 0, 100, 0.177),rgba(3, 2, 41, 0.5)) ,url("./images/IMG2.jpg");
+  background: linear-gradient(rgba(4, 27, 180, 0.249), rgba(12, 0, 100, 0.177),rgba(3, 2, 41, 0.5)) ,url("./images/IMG2.webp");
   /* background: url("./images/IMG2.jpg"); */
     background-repeat: no-repeat;
     background-position: 100% 50%;
@@ -1593,7 +1593,7 @@ tr{
     background-attachment: fixed;
 }
 .cont3{
-  background: linear-gradient(rgba(21, 4, 107, 0.253), rgba(38, 8, 113, 0.291),rgba(6, 8, 137, 0.262)) ,url("./images/IMG3.jpg");
+  background: linear-gradient(rgba(21, 4, 107, 0.253), rgba(38, 8, 113, 0.291),rgba(6, 8, 137, 0.262)) ,url("./images/IMG3.webp");
     background-repeat: no-repeat;
     background-position: 100% 50%;
     background-size: 100% 100%;
@@ -1656,6 +1656,5 @@ tr{
   background-color: orange;
 }
 .mar{
-  marqueedirection="right" height="30"
-         width="80%" hspace="10" vspace="10"
+  marquee: direction="right" height="30" width="80%" hspace="10" vspace="10"
 }
